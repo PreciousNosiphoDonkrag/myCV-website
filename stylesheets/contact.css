@@ -1,0 +1,20 @@
+body{
+   
+    margin: auto;
+    
+}
+.card{
+    
+    margin-top: 3rem;
+    
+    /*border: 0.3rem solid rgb(86, 172, 212);
+    */
+}
+
+.card-body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-body h5{
+    font-weight: bold;
+   
+}

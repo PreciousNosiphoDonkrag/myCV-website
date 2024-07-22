@@ -1,0 +1,91 @@
+.body {
+    width: 80%;
+    margin: auto;
+   
+    
+  
+}
+
+body h1{
+    text-align: center;
+    color: rgb(86, 172, 212);
+    font-weight: bold;
+}
+
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.projects {
+    flex: 1 1 40%;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.grid-container {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.grid-item {
+    background-color: rgb(86, 172, 212);
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+/* Adjust sizes for specific items */
+.grid-item.css {
+    grid-column: span 1;
+}
+
+.grid-item.html {
+    grid-column: span 2;
+}
+
+.grid-item.javascript {
+    grid-column: span 3;
+}
+
+.grid-item.sql {
+    grid-column: span 1;
+}
+
+.grid-item.python {
+    grid-column: span 2;
+}
+
+.grid-item.scikit {
+    background-color: rgb(96, 161, 192);
+    grid-column: span 3;
+}
+
+.grid-item.pandas {
+    background-color: rgb(96, 161, 192);
+    grid-column: span 2;
+}
+
+.grid-item.scipy {
+    background-color: rgb(96, 161, 192);
+    grid-column: span 1;
+}
+
+.grid-item.matplotlib {
+    background-color: rgb(96, 161, 192);
+    grid-column: span 1;
+}
+
+.grid-item.seaborn {
+    background-color: rgb(96, 161, 192);
+    grid-column: span 1;
+}
