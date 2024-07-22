@@ -1,0 +1,19 @@
+.navbar{
+  background: linear-gradient(90deg,rgb(203, 209, 212), rgb(86, 172, 212),rgb(203, 209, 212));
+}
+
+.navbar-nav .nav-item{
+  padding-left: 10rem;
+  font-size: larger;
+  margin: auto;
+
+  
+}
+
+p{
+  width: 70%;
+  margin-left: 1rem; 
+  
+  text-align: justify;
+  margin: auto;
+}
